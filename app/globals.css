@@ -21,6 +21,12 @@ a {
   height: auto;
   object-fit: cover;
 }
+.imageSkill
+{
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
 
 .navigation {
   background-color: #000;
@@ -44,7 +50,7 @@ footer {
   font-size: 28px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #fd0202;
+  background-color: purple;
   padding: 5px;
   border-radius: 4px;
 }
@@ -54,11 +60,11 @@ footer {
 }
 
 .navigation-link:hover {
-  color: #fd0202;
+  color: purple;
 }
 
 .cover {
-  background-image: url('/intro-background.jpg');
+  background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3Md7ojg_eS0/v1/-1x-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,18 +74,18 @@ footer {
 }
 
 .title {
-  color: #fd0202;
+  color: purple;
   font-size: 90px;
 }
 
 .section-title {
   font-size: 50px;
-  color: #fd0202;
+  color: purple;
 }
 
 .card-name {
-  font-size: 28px;
-  color: #fd0202;
+  font-size: 24px;
+  color: purple;
 }
 
 .columns {
@@ -100,7 +106,7 @@ footer {
 }
 
 .container {
-  padding: 16px;
+  padding: 2px;
 }
 
 .gallery {
@@ -118,7 +124,7 @@ footer {
   flex-direction: column;
   align-items: center;
   max-width: 300px;
-  border: 1px solid #fd0202;
+  border: 1px solid purple;
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
@@ -138,6 +144,7 @@ footer {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    background-color: #201c24;
   }
 }
 
